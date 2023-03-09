@@ -21,3 +21,18 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: [xl-start] 1fr [xl-end];
+  }
+  :root {
+		font-size: 75%;
+	}
+}
+  
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: [xl-start] 1fr [xl-end];
+  }
+}
